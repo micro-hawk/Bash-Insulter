@@ -28,11 +28,8 @@ noob@bender:~ $ sp aux
 # Installation
 
     # Method 1 - know what you are doing
-    git clone https://github.com/hkbakke/bash-insulter.git bash-insulter
+    git clone https://github.com/micro-hawk/bash-insulter.git bash-insulter
     sudo cp bash-insulter/src/bash.command-not-found /etc/
-
-    # Method 2 - I don't care, insult me!
-    sudo wget -O /etc/bash.command-not-found https://gitlab.com/dwt1/bash-insulter/-/raw/master/src/bash.command-not-found
 
 Then source the file automatically for new logins by adding the following to `/etc/bash.bashrc` or any of the other locations where you can configure your shell automatically during login:
 ```
@@ -67,3 +64,6 @@ fi
 ```
 
 Then logout and in again. The end result is that you will now use your messages instead of the default ones.
+
+# Thanks
+    # $-> MICROHAWK
