@@ -23,7 +23,7 @@ noob@bender:~ $ sp aux
 
 # Compatibility
 * Bash v4 and newer
-* Zsh
+* ZSH
 
 # Installation
 
